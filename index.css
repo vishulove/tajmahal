@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(photos/taj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+
+
+}
+
+nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav .menu a:hover {
+    background-color: blue;
+    /* padding-left: 6% */
+    border-radius: 40px;
+
+}
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+
+section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+section h1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+section P {
+    font-size: 25PX;
+    word-spacing: 2PX;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+section a {
+    padding: 12px 30p;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease
+
+}
+
+
+.span.d {
+
+    color: goldenrod;
+
+}
+
+.btntwo {
+    margin-right: 3%;
+    border: 2 solid blue;
+    background-color: rgb(245, 245, 249);
+    color: blue;
+    padding: 12px;
+    border-radius: 40px;
+    text-decoration: none;
+
+}
+.btnone {
+    margin-right: 3%;
+    border: 2 solid blue;
+    background-color: rgb(245, 245, 249);
+    color: blue;
+    padding: 12px;
+    border-radius: 40px;
+    text-decoration: none;
+    /* display: block; */
+}
+
+
+.change_content:after {
+    content: '';
+    animation: changetext 15s infinite linear;
+    color: blue;
+}
+
+@keyframes changetext {
+    0% {
+        content: "darjeeling";
+    }
+
+    20% {
+        content: "Agra";
+    }
+
+    35% {
+        content: "Delhi";
+    }
+
+    60% {
+        content: "Mumbai";
+    }
+
+    80% {
+        content: "Jaipur";
+    }
+    
+}
+
+.btntwo:hover {
+    background-color: rgb(12, 12, 174);
+    color: rgb(240, 240, 247);
+}
+
+.btnone:hover {
+    background-color: rgb(12, 12, 174);
+    color: rgb(240, 240, 247);}
+
+
